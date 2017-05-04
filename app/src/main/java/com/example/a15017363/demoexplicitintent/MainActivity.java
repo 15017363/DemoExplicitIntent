@@ -55,12 +55,12 @@ public class MainActivity extends AppCompatActivity {
                 //If it is activity started by clicking
                 //Superman, create corresponding String
                 if(requestCode == requestCodeForSupermanStats){
-                    statement = "You " + like + "Superman";
+                    statement = "You " + like + " Superman";
                 }
                 //If 2nd activity started by clicking
                 //Batman, create corresponding String
                 if(requestCode == requestCodeForBatmanStats){
-                    statement = "You " +like+ "Batman";
+                    statement = "You " +like+ " Batman";
                 }
                 Toast.makeText(this, statement, Toast.LENGTH_LONG).show();
             }
